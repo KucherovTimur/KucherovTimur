@@ -1,0 +1,396 @@
+::placeholder {
+	color: #757575;
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background: white;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+	border-radius: 15px;
+}
+a:hover {
+	transition: 0.4s;
+}
+h2 {
+	margin: 10px;
+	text-align: center;
+}
+p {
+	margin: 15px;
+}
+h3 {
+	margin: 5px;
+}
+h4 {
+	margin: 5px;
+	height: 35px;
+}
+.navigation {
+	display: inline-block;
+	text-align: center;
+	height: 50px;
+	width: 100%;
+	margin: auto;
+	margin-top: 10px;
+}
+.Banner {
+	height: 350px;
+	width: 100%;
+	font-family: sans-serif;
+	max-width: 1000px;
+	background: url('bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+}
+.Banner a {
+	background: white;
+	height: 50px;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px;
+}
+.Banner a:hover {
+	background: #00C853 ;
+	color: white;
+}
+.Banner p {
+	color: white;
+	margin: 20px;
+}
+
+.picture__logo {
+	height: 180px;
+	width: 180px;
+	margin: 10px;
+}
+.picture {
+	float: left;
+}
+.text {
+	margin-left: 250px;
+}
+.text__head {
+	text-align: center;
+	margin: 20px;
+}
+.text__base {
+	margin: 0px;
+}
+.menu__link {
+	transition: 0.3s;
+	border-radius: 360px;
+	text-decoration: none;
+	font-family: sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	width: 160px;
+	background: #00E676;
+	color: #fff;
+	font-size: 16px;
+}
+.menu__link:hover {
+	background: #BDBDBD;
+	color: green;
+}
+.Banner h2 {
+	margin: 100px 0px 30px;
+	color: white;
+}
+.AboutUs {
+	width: 70%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+#projects{
+	text-align: center;
+}
+.OurProject {
+	display: inline-block;
+	width: 40%;
+	margin: 3%;
+	border: 2px gray;
+	border-collapse: collapse;
+	box-shadow: 1px 1px 20px rgba(0,0,0,1);
+	overflow: hidden;
+	height: 640px;
+}
+.OurProject img {
+	width: 100%;
+	height: 400px;
+}
+.OurProject a {
+	height: 50px;
+	width: 100px;
+	background: #00C853;
+	color: white;
+	padding: 5px;
+	margin: 15px;
+}
+.OurProject a:hover {
+	background: #BDBDBD;
+	color: #00E676;
+}
+#Team {
+	text-align: center;
+}
+.OurTeam {
+	margin: auto;
+	display: inline-block;
+	height: 430px;
+	width: 22%;
+	background: #E0E0E0;
+	vertical-align: top;
+	text-align: center;
+	margin: 10px;
+}
+.OurTeam img {
+	border-radius: 360px;
+	height: 270px;
+	width: 200px;
+	margin: 5px;
+}
+.OurTeam p {
+	margin: 10px;
+}
+.OurTeam a {
+	line-height: 15px;
+	background: black;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+.OurTeam a:hover {
+	background: white;
+	color: black;
+}
+#Plans {
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+#Plans h2 {
+	text-align: center;
+}
+#Plans p {
+	text-align: center;
+}
+.OurPlan {
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	vertical-align: top;
+}
+.OurPlan h3 {
+	text-align: center;
+}
+.OurPlan a {
+	line-height: 15px;
+	background: #00E676;
+	color: white;
+	padding: 5px;
+}
+.OurPlan a:hover {
+	background: #BDBDBD;
+	color: #00E676;
+}
+.OurPlan ul {
+	list-style: none;
+	padding: 0px;
+}
+.OurPlan li {
+	line-height: 40px;
+}
+#Forma {
+	text-align: center;
+}
+#Forma a {
+	margin: 27px, 0px, 27px;
+	line-height: 75px;
+	display: inline-block;
+	vertical-align: top;
+}
+#Forma a:hover {
+
+}
+#Forma img {
+	height: 55px;
+	margin: 10px;
+}
+#Phone img {
+	display: inline-block;
+	margin-left: 10px;
+}
+#Feedback form {
+	font-size: 0;
+}
+.input {
+	display: inline-block;
+	margin: auto;
+	font-size: 16px;
+	width: 170px;
+	margin: 5px;
+	box-sizing: border-box;
+	border-radius: 360px;
+	border: 1px solid gray;
+	background: #9E9E9E;
+	padding: 5px;
+	outline: none;
+	background: #E0E0E0;
+}
+textarea {
+	display: block;
+	width: 350px;
+	resize: none;
+	margin: auto;
+	margin-top: 5px;
+}
+.button {
+	display: inline-block;
+	margin: 10px;
+	border-radius: 360px;
+	background: #00E676;
+	color: white;
+	padding: 5px;
+	border: 1px solid gray;
+}
+.button:hover {
+	background: #BDBDBD;
+	color: #00E676;
+}
+@media (max-width: 768px){
+	::placeholder {
+		color: #757575;
+	}
+	body {
+	}
+	.navigation {
+		padding: 5px;
+		height: auto;
+		display: block;
+		box-sizing: border-box;
+	}
+	.menu__link {
+		transition: 0.3s;
+		border-radius: 360px;
+		text-decoration: none;
+		font-family: sans-serif;
+		list-style-type: none;
+		display: block;
+		text-align: center;
+		line-height: 40px;
+		background: #00E676;
+		color: #fff;
+		font-size: 16px;
+		margin: 10px auto;
+	}
+	.Banner {
+		width: 100%;
+		height: auto;
+	}
+	.Banner p {
+		height: 160px;
+	}
+	.Banner a {
+		display: inline-block;
+		height: auto;
+	}
+	.AboutUs {
+		margin: 0;
+		width: 100%;
+	}
+	.AboutUs h2 {
+		margin-top: 10px;
+	}
+	.text__head {
+		margin: 0;
+		margin-right: 75px;
+	}
+	.text__paragrath {
+		width: auto;
+	}
+	.text {
+		margin-left: 120px;
+	}
+	.AboutUs p {
+		width: auto;
+	}
+	.AboutUs img {
+		height: 100px;
+		width: 100px;
+		bo
+	}
+	.projects {
+		overflow: hidden;
+	}
+	.OurProject {
+		height: auto;
+		margin: 5px;
+		border: 1px solid;
+		box-shadow: 1px 1px 1px;
+		width: auto;
+		object-fit: cover;
+	}
+	.OurProject img {
+		height: 150px;
+	}
+	.OurProject p {
+		margin: 5px;
+		height: 
+	}
+	.OurProject a {
+		margin: 25px;
+		padding: 0;
+	}
+	#Team {
+		overflow: hidden;
+	}
+	.OurTeam {
+		height: auto;
+		width: 45%;
+		margin: 5px;
+	}
+	.OurTeam img {
+		height: 80px;
+		width: 90%;
+	}
+	.OurTeam a {
+		padding: 2px;
+	}
+	#Plans {
+		height: auto;
+	}
+	.OurPlan {
+		height: auto;
+		border: 3px solid #eee;
+		width: auto;
+	}
+	.OurPlan li {
+		text-align: center;
+		line-height: 50px;
+	}
+	.OurPlan a {
+		margin: 10px;
+		line-height: 20px;
+	}
+	input {
+		width: 90% !important;
+		margin: auto;
+	}
+	textarea {
+		width: 90% !important;
+		margin: auto;
+	}
